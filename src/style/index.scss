@@ -1,0 +1,40 @@
+@import 'vendor/normalize';
+@import 'modules/variables';
+@import 'modules/mixins';
+@import 'modules/media-queries';
+// @import 'partials/coin-card';
+@import 'partials/form-section';
+@import 'partials/btns-section';
+@import 'partials/table-section';
+@import 'partials/footer';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  overflow-x: hidden;
+  color: $dark;
+  @include flex-center;
+}
+.alert {
+  width: 100vw;
+  height: 10vh;
+  font-size: 1.2rem;
+  background: $alert;
+  text-align: center;
+  padding: 1rem;
+  font-weight: bold;
+  color: $light;
+}
+.chart-section {
+  height: 60vh;
+  width: 100vw;
+  @include medium-screen {
+    width: 60vw;
+  }
+}

@@ -1,0 +1,27 @@
+.table-section{
+  width: 100vw;
+  @include flex-center;
+  table{
+    width: 100%;
+    @include medium-screen {
+      width: 60%;
+      font-size: 1.2rem;
+    }
+    thead {
+      font-size: 0.9rem;
+      border-bottom: 1px solid $dark;
+    }
+    th {
+      padding: 0.5rem;
+    }
+    td {
+      padding: 0.5rem;
+    }
+    tbody tr:nth-child(odd) {
+      background-color: $primary;
+    }
+    tbody tr:nth-child(even) {
+      background-color: $danger;
+    }
+  }
+}

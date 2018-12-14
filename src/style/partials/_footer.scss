@@ -1,0 +1,20 @@
+footer {
+  width: 100vw;
+  height: 15vh;
+  background: $dark;
+ 
+  @include flex-center;
+  p,a{
+    padding: 0.5rem;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  p{
+    color: $light;
+  }
+  a{
+    text-decoration: none;
+    color: $primary;
+  }
+}

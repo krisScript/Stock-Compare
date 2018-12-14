@@ -1,0 +1,15 @@
+.btns-section{
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  button{
+    margin: 1rem;
+    background: $danger;
+    color: $light;
+    border: none;
+    font-size: 1rem;
+    padding: 0.2rem;
+  }
+}

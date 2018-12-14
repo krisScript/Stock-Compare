@@ -1,0 +1,19 @@
+.form-section {
+  width: 100vw;
+  height: 10vh;
+  @include flex-center;
+  background: $dark;
+  input {
+    font-size: 1.2rem;
+    border: none;
+    height: 2rem;
+  }
+  button {
+    font-size: 1.1rem;
+    border: none;
+    background: $primary;
+    color: $light;
+    height: 2rem;
+    padding: 0.3rem;
+  }
+}
